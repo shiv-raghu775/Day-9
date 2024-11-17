@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1d1b;
+    color: #ffffffc8;
+    padding: 2% 5%;
+}
+header h2{
+    margin: 0;
+    width: 5%;
+}
+header ul{
+    display: flex;
+    list-style: none; 
+    gap: 5%;
+    width: 70%;
+    align-items: center;
+    
+}
+header ul li{
+    border-right: 1px solid #ffffff40;
+    padding-right: 1%;
+}
+header ul button{
+    padding: 1.5% 1.5%;
+    border: none;
+    background-color: yellow;
+}
+
+.page1{
+    width: 100%;
+    height: 111%;
+    background-image: url("142860f24f441ae609f53e30e2396614.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.button{
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button h1{
+   font-size: 60px;
+   font-weight: 900;
+   color: #000000e9;
+   text-decoration: underline;
+}
+.button h2{
+    padding-top: 1%;
+    font-weight: 900;
+}
+.button button{
+    margin-top: 1%;
+    padding: 1% 1.5%;
+    border: none;
+    background-color: yellow;
+    font-weight: 900;
+}
+
+.page1 .var{
+    width: 75%;
+    height: 22%;
+    background-color: yellow;
+    margin-top: 11.5%;
+    margin-left: 13%;
+    padding: 0% 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.circle{
+     height: 80px;
+     width: 80px;
+     border-radius: 50%;
+     background-color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.circle .icon{
+    font-size: 40px;
+}
+.first{
+    width: 33%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+.first .content p{
+    font-size: 10px;
+    margin-top: 5%;
+}
+.second{
+    width: 33%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+.second .content p{
+    font-size: 10px;
+    margin-top: 5%;
+}
+.third{
+    width: 33%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+.third .content p{
+    font-size: 10px;
+    margin-top: 5%;
+}
